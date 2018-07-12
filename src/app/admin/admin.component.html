@@ -1,0 +1,42 @@
+
+<app-logout></app-logout>
+<div class="row">
+  <div class="col-md-2 buttons">
+
+    <a routerLink = "/admin/food-item/grid-view" routerLinkActive = "active-link">
+    <div class="col-md-12 regulars">
+      Food Items
+    </div>
+    </a>
+
+    <a routerLink = "/admin/inventory/list-view" routerLinkActive = "active-link">
+      <div class="col-md-12 regulars">
+        Inventories
+      </div>
+    </a>
+
+    <a routerLink = "/admin/orders/list-view" routerLinkActive = "active-link ">
+      <div class="col-md-12 regulars ">
+        Orders
+      </div>
+    </a>
+
+    <a routerLink = "/admin/tables" routerLinkActive = "active-link">
+      <div class="col-md-12 regulars">
+        Tables
+      </div>
+    </a>
+
+    <a routerLink = "/admin/register" routerLinkActive = "active-link">
+      <div class="col-md-12 regulars">
+        Registration
+      </div>
+    </a>
+
+
+
+
+  </div>
+  <div class="col-md-10 go-left">
+    <router-outlet></router-outlet>
+  </div>
