@@ -57,7 +57,7 @@ export class FoodItemsComponent implements OnInit {
       if (this.FoodItem[i].FoodItemImage === null || this.FoodItem[i].FoodItemImage === '' ) {
         this.FoodItem[i].FoodItemImage = this.imageUrl;
       } else {
-        this.FoodItem[i].FoodItemImage =   this.FoodItem[i].FoodItemImage;
+        this.FoodItem[i].FoodItemImage = this.FoodItem[i].FoodItemImage;
       }
     }
   }
