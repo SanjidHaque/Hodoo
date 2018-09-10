@@ -50,9 +50,9 @@ export class GridDetailsComponent implements OnInit {
         this.FoodItem = this.FoodItemList[i];
         if ( this.FoodItem.FoodItemImage === null || this.FoodItem.FoodItemImage === '' ) {
           this.FoodItem.FoodItemImage = this.imageUrl;
-        } /*else {
-          this.FoodItem.FoodItemImage = this.rootUrl + this.FoodItem.FoodItemImage;
-        }*/
+        } else {
+          this.FoodItem.FoodItemImage =  this.rootUrl + this.FoodItem.FoodItemImage;
+        }
       }
     }
   }

@@ -77,7 +77,7 @@ const appRoutes: Routes = [
   { path: 'new-password', component: NewPasswordComponent },
 
   { path: 'contact-us', component: ContactUsComponent,
-    /*canActivate: [AuthGuard], */ data: { roles: ['Admin'] }},
+    /*canActivate: [AuthGuard], */ /*data: { roles: ['Admin'] }*/},
   { path: 'admin',
     component: AdminComponent,
    /* canActivate: [AuthGuard],

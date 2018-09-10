@@ -49,9 +49,9 @@ export class OurOffersComponent implements OnInit, DoCheck {
 
   ngOnInit() {
     this.orderedItems = this._ourOfferService.getOrderedItemsList();
-    if (this.userService.roleMatch(['Admin'])) {
+    /*if (this.userService.roleMatch(['Admin'])) {
       this.checkOut = true;
-    }
+    }*/
 
     this.route.data.
     subscribe(

@@ -14,14 +14,14 @@ export class LogoutComponent implements OnInit {
   constructor(private router: Router, private userService: UserService) { }
 
   ngOnInit() {
-    this.userName
-      = JSON.parse(JSON.stringify(localStorage.getItem('userName')));
+    /*this.userName
+      = JSON.parse(JSON.stringify(localStorage.getItem('userName')));*/
   }
 
   logOut() {
-    localStorage.removeItem('userToken');
+    /*localStorage.removeItem('userToken');
     localStorage.removeItem('userName');
-    this.router.navigate(['/login']);
+    this.router.navigate(['/login']);*/
   }
 
 

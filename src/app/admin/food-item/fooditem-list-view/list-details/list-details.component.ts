@@ -50,9 +50,9 @@ export class ListDetailsComponent implements OnInit {
         this.FoodItem = this.FoodItemList[i];
         if ( this.FoodItem.FoodItemImage === null || this.FoodItem.FoodItemImage === '' ) {
           this.FoodItem.FoodItemImage = this.imageUrl;
-        } /*else {
+        } else {
           this.FoodItem.FoodItemImage =  this.rootUrl + this.FoodItem.FoodItemImage;
-        }*/
+        }
       }
     }
   }
